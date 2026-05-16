@@ -7,11 +7,59 @@ tags:
   - Financial Services
   - Insurance
   - United Kingdom
+  - Mortgages
 description: 'A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.accord-mortgages.co.uk/
+  - type: Login
+    url: https://www.accord-mortgages.co.uk/intermediary-login
+  - type: Features
+    data:
+      - name: Intermediary Mortgage Sourcing
+        description: Online sourcing of Accord mortgage products by authorized intermediaries through the broker portal.
+      - name: Decision in Principle
+        description: Broker-portal-driven Decision in Principle (DIP) for borrower mortgage applications.
+      - name: Application Submission
+        description: Online submission and tracking of full mortgage applications by intermediaries.
+      - name: Product Switching
+        description: Existing-customer product transfer and rate-switch workflows handled through the broker portal.
+  - type: UseCases
+    data:
+      - name: Broker-Originated Mortgages
+        description: Authorized intermediaries originating residential and buy-to-let mortgages on behalf of UK borrowers.
+      - name: Mortgage Product Sourcing
+        description: Comparing and selecting Accord mortgage products through broker sourcing systems.
+      - name: Customer Retention
+        description: Existing-borrower product transfers managed through Accord's intermediary channel.
+  - type: Authentication
+    data:
+      - name: No Public API
+        description: Accord does not publish a public developer API or developer portal. Broker access is provided through the intermediary web portal and authenticated by individual broker login; technical sourcing integrations with the major UK sourcing systems (Twenty7Tec / Iress / Mortgage Brain) are handled bilaterally rather than via a public Accord-branded API.
+  - type: Compliance
+    data:
+      - name: FCA Regulated
+        description: Authorized and regulated by the UK Financial Conduct Authority (FCA) for mortgage and financial services activities.
+      - name: PRA
+        description: Prudential Regulation Authority oversight applies to the parent group as a UK regulated lender.
+      - name: GDPR / UK GDPR
+        description: UK General Data Protection Regulation and Data Protection Act 2018 compliance for personal data of UK applicants.
+      - name: Consumer Duty
+        description: FCA Consumer Duty rules for fair treatment of retail mortgage customers.
+  - type: Integrations
+    data:
+      - name: Twenty7Tec
+        description: Twenty7Tec sourcing platform is a primary integration channel for broker mortgage sourcing.
+      - name: Iress
+        description: Iress sourcing platform connects intermediaries to Accord mortgage products.
+      - name: Mortgage Brain
+        description: Mortgage Brain sourcing and CRM platform integrates with Accord for intermediary distribution.
+      - name: Yorkshire Building Society
+        description: Accord Mortgages is the intermediary-only lender of the Yorkshire Building Society Group.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

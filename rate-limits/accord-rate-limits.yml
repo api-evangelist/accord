@@ -1,0 +1,29 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Accord
+providerId: accord
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Financial Services
+  - Mortgages
+  - Rate Limiting
+description: Accord does not publish public rate limits because it does not offer a public developer API. Any throttling on bilateral sourcing-system feeds is negotiated with the sourcing-system vendor.
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.accord-mortgages.co.uk/
+responseCodes:
+  throttled: 429
+limits:
+  - name: No public rate limits
+    scope: account
+    metric: not_applicable
+    limit: not applicable
+policies:
+  - name: Sourcing-system feeds
+    description: Throughput on broker-sourcing feeds is governed by Accord's contract with the sourcing-system provider.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

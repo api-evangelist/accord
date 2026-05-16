@@ -1,0 +1,39 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Accord
+providerId: accord
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Financial Services
+  - Mortgages
+  - United Kingdom
+description: Accord is an intermediary-only UK mortgage lender. It does not publish a public developer API or developer portal; broker access runs through the intermediary web portal and bilateral integrations with the major UK mortgage sourcing systems.
+notes: No public developer API — placeholder only. Pricing for mortgage product itself is published as broker rate sheets, not as an API plan.
+sources:
+  - https://www.accord-mortgages.co.uk/
+plans:
+  - id: accord-broker
+    name: Authorized Intermediary Access
+    type: enterprise
+    description: Access to Accord's broker portal is granted to FCA-authorized intermediaries under Accord's intermediary terms. There is no metered API plan.
+    entries:
+      - label: Broker authorisation
+        name: broker_authorisation
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: UK
+        unit: 1
+        price: free to authorized intermediaries
+        userMultiplied: false
+    elements:
+      - name: Intermediary portal access
+      - name: Sourcing-system integration via Twenty7Tec / Iress / Mortgage Brain
+      - name: No public developer API
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
