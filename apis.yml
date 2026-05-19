@@ -14,6 +14,10 @@ modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/accordproject
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/accordproject
   - type: Website
     url: https://www.accord-mortgages.co.uk/
   - type: Login
