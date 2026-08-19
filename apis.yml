@@ -23,7 +23,7 @@ tags:
 description: 'A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.'
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: GitHubOrganization
