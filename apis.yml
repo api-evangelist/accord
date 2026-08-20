@@ -16,6 +16,11 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accord.png
 tags:
+  - Financial-Services
+  - Insurance
+  - United Kingdom
+  - Mortgages
+tags_raw:
   - Financial Services
   - Insurance
   - United Kingdom
