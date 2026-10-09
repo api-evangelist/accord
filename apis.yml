@@ -98,6 +98,8 @@ common:
         description: Mortgage Brain sourcing and CRM platform integrates with Accord for intermediary distribution.
       - name: Yorkshire Building Society
         description: Accord Mortgages is the intermediary-only lender of the Yorkshire Building Society Group.
+  - type: SpectralRules
+    url: https://github.com/accordproject/apap/blob/7ab96f901f9aa972383792c93467cd6415418577/.spectral.yaml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

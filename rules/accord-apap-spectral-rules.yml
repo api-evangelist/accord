@@ -1,0 +1,12 @@
+# harvested from https://github.com/accordproject/apap/blob/7ab96f901f9aa972383792c93467cd6415418577/.spectral.yaml on 2026-10-09 — a Spectral ruleset published in the provider's own GitHub repository (accordproject/apap); found by GitHub code search, fetched verbatim
+x-method: harvested
+x-stamped: 2026-10-09
+x-source-url: https://github.com/accordproject/apap/blob/7ab96f901f9aa972383792c93467cd6415418577/.spectral.yaml
+extends: '@ibm-cloud/openapi-ruleset'
+rules:
+  request-body-object: off
+  string-boundary: off
+  array-boundary: off
+  operation-tags: off
+  operation-id-case-convention: off
+  property-description: off
