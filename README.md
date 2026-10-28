@@ -1,4 +1,4 @@
-# Accord (accord)
+# Accord
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,71 +66,96 @@
 
 A UK-based financial services company operating within the Allianz group, providing insurance and financial products to retail and business customers across the United Kingdom.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/accord/refs/heads/main/apis.yml)
+**Areas:** Financial Services · Insurance · United Kingdom · Mortgage
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=accord-api-evangelist&utm_content=repo)
+## Accord on APIs.io
 
-## Tags:
+Everything profiled for Accord is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/accord/](https://apis.io/providers/accord/)** — or go straight to one of the APIs or properties below.
 
- - Financial Services, Insurance, United Kingdom, Mortgages
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+#### Governance rules (1)
 
-## APIs
+Spectral rulesets for the provider's contracts.
 
-Accord does not publish a public developer API or developer portal. Broker access is provided through the intermediary web portal and authenticated by individual broker login; technical sourcing integrations with the major UK sourcing systems (Twenty7Tec / Iress / Mortgage Brain) are handled bilaterally rather than via a public Accord-branded API.
+- [Accord — apap rules](https://apis.io/rules/accord/accord-apap-spectral-rules/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Accord Plans Pricing](https://apis.io/plans/accord/accord-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Accord Rate Limits](https://apis.io/rate-limits/accord/accord-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Accord Finops](https://apis.io/finops/accord/accord-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.accord-mortgages.co.uk/)
-- [Login](https://www.accord-mortgages.co.uk/intermediary-login)
+- [GitHub](https://github.com/accordproject)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Intermediary Mortgage Sourcing | Online sourcing of Accord mortgage products by authorized intermediaries through the broker portal. |
-| Decision in Principle | Broker-portal-driven Decision in Principle (DIP) for borrower mortgage applications. |
-| Application Submission | Online submission and tracking of full mortgage applications by intermediaries. |
-| Product Switching | Existing-customer product transfer and rate-switch workflows handled through the broker portal. |
+**Kin Score 9.3** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 30.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 19.7 |
 
-| Name | Description |
-|------|-------------|
-| Broker-Originated Mortgages | Authorized intermediaries originating residential and buy-to-let mortgages on behalf of UK borrowers. |
-| Mortgage Product Sourcing | Comparing and selecting Accord mortgage products through broker sourcing systems. |
-| Customer Retention | Existing-borrower product transfers managed through Accord's intermediary channel. |
+**Agent readiness 3.1** — human-only
 
-## Authentication
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| No Public API | Accord does not publish a public developer API or developer portal. |
+**Regulatory alignment 9.6** — Insurance
 
-## Compliance
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/accord/](https://apis.io/providers/accord/).
 
-| Name | Description |
-|------|-------------|
-| FCA Regulated | Authorized and regulated by the UK Financial Conduct Authority (FCA) for mortgage and financial services activities. |
-| PRA | Prudential Regulation Authority oversight applies to the parent group as a UK regulated lender. |
-| GDPR / UK GDPR | UK General Data Protection Regulation and Data Protection Act 2018 compliance for personal data of UK applicants. |
-| Consumer Duty | FCA Consumer Duty rules for fair treatment of retail mortgage customers. |
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| Twenty7Tec | Twenty7Tec sourcing platform is a primary integration channel for broker mortgage sourcing. |
-| Iress | Iress sourcing platform connects intermediaries to Accord mortgage products. |
-| Mortgage Brain | Mortgage Brain sourcing and CRM platform integrates with Accord for intermediary distribution. |
-| Yorkshire Building Society | Accord Mortgages is the intermediary-only lender of the Yorkshire Building Society Group. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Accord: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/accord/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
